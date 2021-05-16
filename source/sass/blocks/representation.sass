@@ -1,0 +1,73 @@
+.representation
+  padding: 34px 0 0 0
+  @include media-breakpoint-up(md)
+    padding: 28px 0 70px 0
+  @include media-breakpoint-up(xl)
+    padding: 34px 0 111px 0
+
+.representation__heading
+  font-size: 30px
+  line-height: 40px
+  font-weight: 600
+  padding: 0 0 29px 2px
+  color: var(--light-dark)
+  @include media-breakpoint-up(md)
+    font-size: 45px
+    line-height: 60px
+    margin-bottom: 53px
+    padding: 40px 0 55px 0px
+  @include media-breakpoint-up(xl)
+    padding: 70px 0 53px 8px
+
+.representation__left-info
+  @include media-breakpoint-up(xl)
+    padding-right: 0
+
+.representation__heading-addition
+  font-size: 16px
+  line-height: 26px
+  font-weight: 300
+  padding: 0 0 24px 2px
+  letter-spacing: 0.1px
+  color: var(--light-dark)
+  @include media-breakpoint-up(md)
+    font-size: 22px
+    line-height: 40px
+    padding: 0 0 48px 2px
+  @include media-breakpoint-up(xl)
+    margin: 0
+    padding: 2px 0 65px 8px
+    letter-spacing: 0.15px
+    max-width: 470px
+
+.representation__button
+  font-size: 17px
+  line-height: 17px
+  font-weight: 700
+  border-radius: 7px
+  max-width: 343px
+  padding: 22px 0
+  letter-spacing: 0.15px
+  background-color: var(--light-red)
+  color: var(--white)
+  @include media-breakpoint-up(md)
+    min-width: 420px
+  @include media-breakpoint-up(xl)
+    margin-left: 8px
+
+.representation__image
+  min-height: 420px
+  background-image: url("../img/representation-image.svg")
+  background-size: 274px 303px
+  background-position: center
+  background-position-y: 48px
+  background-repeat: no-repeat
+  @include media-breakpoint-up(md)
+    min-height: 550px
+    background-size: 452px 500px
+  @include media-breakpoint-up(xl)
+    min-height: 570px
+    background-size: 452px 500px
+    background-position-y: 66px
+    background-position-x: 75px
+
